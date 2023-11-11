@@ -1,0 +1,84 @@
+@import url("../css/Fonts.css");
+
+
+
+:root {
+  --color-body: #b6cbce;
+  --color-heading: #eef3db;
+  --color-base: #033f47;
+  --color-base2: #3f8d80;
+  --color-brand: #99ff00;
+  --color-brand2: #deff58;
+  --color-separator: rgba(255, 255, 255, 0.2);
+  --color-separator2: rgba(0, 0, 0, 0.2);
+  --color-shadow: #99ff0040;
+
+  /* ----------        COLORS Kyngtravels       ---------- */
+
+  /*  solid colors   */
+  --color-kyng-cian: #02c9a8;
+  /* Cian Vívido */
+  --color-kyng-amarillo-verde-v: #99FF00;
+  /* Amarillo Verde Vívido */
+  --color-kyng-rosa-v: #FF0066;
+  /* Rosa Vívido */
+  --color-kyng-violeta: #72009C;
+  /* Violeta fuerte */
+  --color-kyng-naranja-v: #FFCC00;
+  /* Naranja vívido */
+  --color-kyng-blanco: #F7FBFE;
+  /* Blanco */
+  --color-kyng-amarillo-verde-p: #d9ffab;
+  /* amarillo-verde pálido */
+
+
+  /*  degrad colors   */
+  --color-grad-1: linear-gradient(var(--color-kyng-cian), var(--color-kyng-amarillo-verde-p));
+  --color-grad-2: linear-gradient(var(--color-kyng-amarillo-verde-v), var(--color-kyng-amarillo-verde-p));
+  --color-grad-3: linear-gradient(var(--color-kyng-violeta), var(--color-kyng-blanco));
+  --color-grad-4: linear-gradient(var(--color-kyng-rosa-v), var(--color-kyng-blanco));
+  --color-grad-5: linear-gradient(var(--color-kyng-naranja-v), var(--color-kyng-rosa-v));
+
+
+  /* KYNG CARD EQUIPO */
+  --color-equipo-title: #D5FF29;
+  --kyng-card-font-size: calc(0.5rem + 0.4vw);
+  --color-card: #033f47;
+
+
+  --sidbar-width: 240px;
+  --font-base: "Open Sans";
+
+  --size-logo-carrusel: 300px;
+
+}
+
+textarea:focus,
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="datetime"]:focus,
+input[type="datetime-local"]:focus,
+input[type="date"]:focus,
+input[type="month"]:focus,
+input[type="time"]:focus,
+input[type="week"]:focus,
+input[type="number"]:focus,
+input[type="email"]:focus,
+input[type="url"]:focus,
+input[type="search"]:focus,
+input[type="tel"]:focus,
+input[type="color"]:focus,
+input[type="checkbox"]:focus,
+.uneditable-input:focus {
+  border-color: #02c9a8;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(126, 239, 104, 0.6);
+  outline: 0 none;
+}
+
+
+.section_full {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

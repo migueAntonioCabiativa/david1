@@ -1,0 +1,149 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;500;600;700&display=swap');
+
+/*   ----   Declaracion de Fuentes para la pagina  --------  */
+
+@font-face {
+  font-family: 'Smithen';
+  src:local('Smithen'),
+  url(../fonts/Smithen_Script/Smithen_Script.ttf) format('truetype');
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'breathing';
+  src:local('breathing'),
+  url(../fonts/breathing/Breathing.ttf) format('truetype');
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'coolveticarg';
+  src:local('coolvetica rg'),
+  url(../fonts/COOLVETICA_RG/coolvetica_rg.otf) format('truetype');
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'coolvetica rg Italic';
+  src:local('coolvetica rg Italic'),
+  url(../fonts/COOLVETICA_RG/coolvetica_rg_it.otf) format('truetype');
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'coolvetica crammed rg';
+  src:local('coolvetica crammed rg'),
+  url(../fonts/COOLVETICA_RG/coolvetica_crammed_rg.otf) format('truetype');
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'coolvetica condensed rg';
+  src:local('coolvetica condensed rg'),
+  url(../fonts/COOLVETICA_RG/coolvetica_condensed_rg.otf) format('truetype');
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'coolvetica compressed hv';
+  src:local('coolvetica compressed hv'),
+  url(../fonts/COOLVETICA_RG/coolvetica_compressed_hv.otf) format('truetype');
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'OpenSans';
+  src:local('Open Sans'),
+  url(../fonts/OPEN_SANS/OpenSans-Regular.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'OpenSansBold';
+  src:local('Open Sans Bold'),
+  url(../fonts/OPEN_SANS/OpenSans-Bold.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'OpenSansItalic';
+  src:local('Open Sans Italic'),
+  url(../fonts/OPEN_SANS/OpenSans-Italic.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'OpenSansLight';
+  src:local('Open Sans Light'),
+  url(../fonts/OPEN_SANS/OpenSans-Light.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'OpenSansBoldItalic';
+  src:local('Open Sans Bold Italic'),
+  url(../fonts/OPEN_SANS/OpenSans-BoldItalic.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'OpenSansLightItalic';
+  src:local('Open Sans Light Italic'),
+  url(../fonts/OPEN_SANS/OpenSans-LightItalic.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'OpenSansSemiBold';
+  src:local('Open Sans SemiBold'),
+  url(../fonts/OPEN_SANS/OpenSans-SemiBold.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'OpenSansSemiBoldItalic';
+  src:local('Open Sans SemiBoldItalic'),
+  url(../fonts/OPEN_SANS/OpenSans-SemiBoldItalic.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'OpenSansExtraBold';
+  src:local('Open Sans ExtraBold'),
+  url(../fonts/OPEN_SANS/OpenSans-ExtraBold.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'OpenSansExtraBoldItalic';
+  src:local('Open Sans ExtraBoldItalic'),
+  url(../fonts/OPEN_SANS/OpenSans-ExtraBoldItalic.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'RobotoLight';
+  font-weight: 300;
+  src: local('RobotoLight'),
+  url(../fonts/roboto/300.woff) format('woff');
+}
+@font-face {
+  font-family: 'Roboto';
+  font-weight: 400;
+  src: local('RobotoRegular'), url(../fonts/roboto/400.woff) format('woff');
+}
+@font-face {
+  font-family: 'RobotoBold';
+  font-weight: 700;
+  src: local('RobotoBold'), url(../fonts/roboto/700.woff) format('woff');
+}
+
+@font-face {
+  font-family: 'MasterOfBreak';
+  src:local('MasterOfBreak'),
+  url(../fonts/master_of_break/master_of_break.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'MichaelFerrari';
+  src:local('MichaelFerrari'),
+  url(../fonts/ferrari/Michael_16017.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Zenith';
+  src:local('Zenith'),
+  url(../fonts/zenith_cp/Zenith.otf) format('truetype');
+}

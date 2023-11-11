@@ -1,0 +1,86 @@
+/* SOCIAL ICONS */
+a {
+    text-decoration: none;
+    color: var(--color-body);
+    transition: all 0.4s ease;
+}
+
+a:hover {
+    color: black;
+}
+
+  .titulos_Kyng{
+    position: relative;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 53px;
+  }
+
+
+  .Card-location-img{
+    position: relative;
+    width: 20vw;
+    height: 20vw;
+  }
+  .Card-location-img img{
+    position: absolute;
+    width:60%;
+    top: 7%;
+    right: 20%;
+    z-index: 10;
+  }
+
+  .Card-location-img svg{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+  }
+
+
+  .Kyng-card-name{
+      font-family:'coolvetica rg';
+      font-size: calc(1.1em + 1.1vw);
+      color:white;
+  }
+
+  .Kyng-card-text{
+      font-size:var(--kyng-card-font-size);
+      color: black;
+      margin-bottom: 2px;
+  }
+
+  .Kyng-card-social{
+      display: flex;
+      justify-content: center;
+  }
+
+  .Kyng-card-social a {
+      width: 30px;
+      height: 30px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      background-color: black;
+      border-radius: 15px;
+      font-size: 24px;
+  }
+  .link-custom {
+      font-weight: 700;
+      position: relative;
+  }
+
+  .link-custom::after {
+      content: "";
+      width: 0%;
+      height: 2px;
+      background-color:black;
+      position: absolute;
+      left: 0;
+      top: 110%;
+      transition: all 0.4s;
+  }
+
+  .link-custom:hover::after {
+      width: 100%;
+  }

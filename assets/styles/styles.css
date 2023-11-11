@@ -1,0 +1,39 @@
+
+@import url("../css/Fonts.css");
+
+
+
+:root {
+    --color-body: #b6cbce;
+    --color-heading: #eef3db;
+    --color-base: #033f47;
+    --color-base2: #3f8d80;
+    --color-brand: #99ff00;
+    --color-brand2: #deff58;
+    --color-shadow: #99ff0040;
+
+    /* ----------        COLORS Kyngtravels       ---------- */
+
+      /*  solid colors   */
+      --color-kyng-cian: #02c9a8;                /* Cian Vívido */
+      --color-kyng-amarillo-verde-v: #99FF00;    /* Amarillo Verde Vívido */
+      --color-kyng-rosa-v: #FF0066;              /* Rosa Vívido */
+      --color-kyng-violeta: #72009C;             /* Violeta fuerte */
+      --color-kyng-naranja-v: #FFCC00;           /* Naranja vívido */
+      --color-kyng-blanco: #F7FBFE;              /* Blanco */
+      --color-kyng-amarillo-verde-p: #d9ffab;    /* amarillo-verde pálido */
+
+
+      /*  degrad colors   */
+      --color-grad-1: linear-gradient(var(--color-kyng-cian), var(--color-kyng-amarillo-verde-p));
+      --color-grad-2: linear-gradient(var(--color-kyng-cian), #C4ff7D);
+
+
+    /* KYNG CARD EQUIPO */
+      --kyng-card-font-size: calc(0.5rem + 0.5vw);
+      --color-card: #033f47;
+
+
+    --sidbar-width: 240px;
+    --font-base: "Open Sans";
+}
